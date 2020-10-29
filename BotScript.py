@@ -54,7 +54,7 @@ def deleteposts():
                         password = "password"
     )
     try:
-        seq = reddit.redditor('thebigscaryshark').submissions.new(limit = None)
+        seq = reddit.redditor('redditor').submissions.new(limit = None)
         submissions_list = []
 
 
@@ -78,7 +78,7 @@ def deletecomments():
                         password = "password"
     )
     try:
-        seq = reddit.redditor('thebigscaryshark').comments.new(limit = None)
+        seq = reddit.redditor('redditor').comments.new(limit = None)
 
         submissions_list = []
 
